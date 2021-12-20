@@ -7,7 +7,7 @@ import {MatToolbarModule} from "@angular/material/toolbar";
 import {MatIconModule} from "@angular/material/icon";
 import {MatButtonModule} from "@angular/material/button";
 import {StoreModule} from "@ngrx/store";
-import {counterReducer} from "./core/reducers/counter.reducer";
+import {counterReducer} from "./core/store/reducers/counter.reducer";
 
 @NgModule({
   declarations: [

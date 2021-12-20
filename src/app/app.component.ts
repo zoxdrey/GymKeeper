@@ -1,7 +1,7 @@
 import {Component} from '@angular/core';
 import {Observable} from "rxjs";
 import {Store} from '@ngrx/store';
-import {decrement, increment, reset} from './core/actions/counter.actions';
+import {decrement, increment, reset} from './core/store/actions/counter.actions';
 
 @Component({
   selector: 'app-root',
